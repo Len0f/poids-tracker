@@ -1,20 +1,9 @@
-# requirements.txt - Liste des dépendances Python du projet
-# Installe tout avec : pip install -r requirements.txt
-
-# Framework web
 fastapi==0.115.0
-
-# Serveur ASGI (lance FastAPI en production)
 uvicorn[standard]==0.30.0
-
-# ORM pour parler à PostgreSQL
 sqlalchemy==2.0.35
-
-# Driver PostgreSQL pour Python
 psycopg2-binary==2.9.9
-
-# Validation des données (inclus dans FastAPI, mais on fixe la version)
-pydantic==2.9.0
-
-# Gestion des variables d'environnement depuis un fichier .env
+pydantic
 python-dotenv==1.0.1
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
