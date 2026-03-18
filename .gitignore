@@ -1,0 +1,25 @@
+# .gitignore - Fichiers à ne PAS commiter sur Git
+
+# Variables d'environnement (contient les mots de passe !)
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environnement virtuel Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
