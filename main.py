@@ -1,5 +1,9 @@
 # main.py - Routes FastAPI avec authentification
 
+# main.py - Routes FastAPI avec authentification
+from dotenv import load_dotenv  # ← ajoute
+load_dotenv()                   # ← ajoute
+
 from fastapi import FastAPI, Depends, HTTPException, Response, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, RedirectResponse
